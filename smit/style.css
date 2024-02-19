@@ -1,0 +1,112 @@
+.allnav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.inputt input{
+margin: 0 ;
+height: 20px;
+    padding: 10 25px;
+    margin-right: 20px;
+}
+.name h3{
+padding-right: 40px;
+    font-size: 30px;
+}
+.link td{
+
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+}
+
+a{
+font-weight: bolder;
+    text-decoration: none;
+    color: black;
+
+}
+.bottom{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.bottom td{
+    padding:0 70px ;
+  white-space: nowrap;
+    text-align: center;
+}
+.bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+height: 70vh;
+width: 100vw;
+background-position: center;
+  background-image: url(./image/philharmoniker_de.webp);
+}
+.decp{
+flex-direction: column;
+justify-content: space-between;
+}
+.decp h3{
+ 
+    font-size: 40px;
+margin-right: 190px;
+}.decp p{
+
+    font-size: 20px;
+}
+.decp h2{
+    text-transform: uppercase;
+letter-spacing: 1.5px;
+    font-size: 15px;
+}
+.input1 button{
+    background-color:rgba(210, 95, 0, 0.472) ;
+padding: 20px 40px;
+
+}
+.second{
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.second h3{
+   text-align: center;
+    }
+    .second p{
+        margin-left: 40px;
+        text-align: center;
+         }
+         .second img{
+            padding-left: 100px;
+margin-left: 50px;
+            height: 3vw;
+         }
+         .card {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .card1 {
+            height: 50vh;
+            width: 25vw;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0px 0px 4px ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card1 img { 
+            height: 40vh;
+            width: 22vw;
+        
+        }
